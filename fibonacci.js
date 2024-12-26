@@ -13,7 +13,10 @@ function fibs(n) {
 
 console.log("Iterative Fibs:", fibs(8));
 
+
+// Recursive fibs
 function fibsRec(n) {
+    console.log("This was printed recursively");
     if (n <= 0) return [];  
     if (n === 1) return [0]; 
     if (n === 2) return [0, 1]; 
@@ -28,3 +31,4 @@ function fibsRec(n) {
 }
 
 console.log("Recursive Fibs:", fibsRec(8));
+
