@@ -125,15 +125,16 @@ list.append("parrot");
 list.append("hamster");
 list.append("snake");
 list.append("turtle");
-list.prepend("horse");
 
+list.prepend("horse");
 
 console.log(list.toString());
 console.log("Size:", list.size());
 console.log("Head:", list.head());
 console.log("Tail:", list.tail());
 console.log("Index 3:", list.at(3));
-console.log(list.pop());
+console.log("Calling Pop():");
+list.pop();
 console.log("After Pop()", list.toString());
 console.log("Contains 'cat': ", list.contains('cat'));
 console.log("Contains 'human': ", list.contains('human'));
