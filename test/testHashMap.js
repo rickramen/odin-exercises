@@ -1,4 +1,4 @@
-const HashMap = require('./hashmap');
+const HashMap = require('../hashMap');
 
 // New HashMap with 16 capacity, 0.75 load factor
 const test = new HashMap(16, 0.75);

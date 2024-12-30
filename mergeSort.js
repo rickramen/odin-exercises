@@ -31,7 +31,7 @@ function merge(left, right) {
             (left.slice(leftIndex), right.slice(rightIndex));
 }
 
-
+// test mergeSort method
 const array = [3, 2, 1, 13, 8, 5, 0, 1];
 const sortedArray = mergeSort(array);
 console.log("Unsorted Array:", array);

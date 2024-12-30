@@ -11,8 +11,6 @@ function fibs(n) {
     return fibSeq;
 }
 
-console.log("Iterative Fibs:", fibs(8));
-
 
 // Recursive fibs
 function fibsRec(n) {
@@ -30,5 +28,7 @@ function fibsRec(n) {
     return fibSeq;
 }
 
+// test fibs
+console.log("Iterative Fibs:", fibs(8));
 console.log("Recursive Fibs:", fibsRec(8));
 
