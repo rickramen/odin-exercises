@@ -1,3 +1,4 @@
 # Odin Exercises
 
-Recursion, Merge Sort, Linked Lists, HashMap, Binary Search Tree
+Fibonacci, Merge Sort, Linked Lists, Hash Maps, Binary Search Tree,  
+Knights Travails
