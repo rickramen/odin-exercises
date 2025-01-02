@@ -22,6 +22,11 @@ function knightMoves (start, end) {
         }
     }
 
+    if (!isValid(start) || !isValid(end)) {
+        console.log("Invalid coordinate input.");
+        return;
+    }   
+
     const queue = []; // Array queue to store positions
     queue.push([start, [start]]); // Add the starting pos
 
@@ -57,4 +62,4 @@ function knightMoves (start, end) {
     }
 }
 
-knightMoves([3,3],[4,3]);
+knightMoves([7,3],[4,3]);
